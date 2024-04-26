@@ -1,4 +1,4 @@
-public class Calculator {
+public class Overloading {
 
     // Method to add two integers
     public int add(int a, int b) {
@@ -16,7 +16,7 @@ public class Calculator {
     }
 
     public static void main(String[] args) {
-        Calculator calculator = new Calculator();
+        Overloading calculator = new Overloading();
 
         // Calling the add method with two integers
         int sum1 = calculator.add(5, 10);
@@ -31,4 +31,3 @@ public class Calculator {
         System.out.println("Sum of 2.5 and 3.5: " + sum3);
     }
 }
-
